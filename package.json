@@ -1,0 +1,38 @@
+{
+  "name": "easyTwitterScraper",
+  "version": "1.0.0",
+  "description": "Quickly scrape tweets and return their info by passing a tweet url.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "esbuild ./src/index.js --bundle --outfile=./dist/index.js --platform=node --target=node16.3 --minify",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leochappuis/twitterscraper.git"
+  },
+  "keywords": [
+    "twitter",
+    "scrapper",
+    "twitter scraper",
+    "web",
+    "scraping",
+    "scraper"
+  ],
+  "author": "leochappuis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leochappuis/twitterscraper/issues"
+  },
+  "homepage": "https://github.com/leochappuis/twitterscraper#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "node-html-parser": "^6.1.5"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.19",
+    "jest": "^29.5.0",
+    "jest-cli": "^29.5.0"
+  }
+}
