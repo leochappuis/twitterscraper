@@ -7,7 +7,7 @@ All it takes is the tweet url.
 It will scrape instances of nitter and return all info it can.
 
 ```js
-const twitterScraper = require('./index')
+const twitterScraper = require('easytwitterscraper')
 
 async function getInfoAboutTweet (url) {
   const info = await twitterScraper.getTweetByURL(url)
