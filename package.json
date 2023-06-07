@@ -1,5 +1,5 @@
 {
-  "name": "easyTwitterScraper",
+  "name": "easytwitterscraper",
   "version": "1.0.0",
   "description": "Quickly scrape tweets and return their info by passing a tweet url.",
   "main": "./dist/index.js",
